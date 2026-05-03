@@ -1,0 +1,593 @@
+2026-05-02 18:18:52 | INFO     | ai_engine          | Gemini 'gemini-1.5-flash' initialised (conversation + intent).
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_firefox' → plugin 'browser'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_chrome' → plugin 'browser'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'open_url' → plugin 'browser'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_google' → plugin 'browser'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_youtube' → plugin 'browser'
+2026-05-02 18:18:52 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'browser' from 'browser_plugin.py' (5 action(s))
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_date' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_time' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_datetime' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_uptime' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_disk_usage' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_memory_usage' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_ip_address' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_up' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_down' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_mute' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'take_screenshot' → plugin 'system_utils'
+2026-05-02 18:18:52 | DEBUG    | plugin_loader      | plugin_loader: registered 'lock_screen' → plugin 'system_utils'
+2026-05-02 18:18:52 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'system_utils' from 'system_plugin.py' (12 action(s))
+2026-05-02 18:18:52 | INFO     | plugin_loader      | plugin_loader: 2 plugin(s) loaded, 17 total actions registered.
+2026-05-02 18:18:52 | INFO     | gui                | Plugins loaded: ['browser', 'system_utils']
+2026-05-02 18:18:52 | DEBUG    | agent_loop         | AgentLoop: loop entered.
+2026-05-02 18:18:52 | INFO     | agent_loop         | AgentLoop: started.
+2026-05-02 18:18:53 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-02 18:18:53 | DEBUG    | utils              | speak_response: spoke 45 chars.
+2026-05-02 18:18:53 | DEBUG    | gui                | TTS finished.
+2026-05-02 18:18:57 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:02 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:04 | INFO     | gui                | Voice input started.
+2026-05-02 18:19:04 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 18:19:04 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 18:19:07 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:12 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:13 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 18:19:14 | WARNING  | utils              | listen_voice: Speech was unclear / not understood.
+2026-05-02 18:19:14 | WARNING  | gui                | Voice input unclear.
+2026-05-02 18:19:17 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:22 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:23 | INFO     | gui                | Voice input started.
+2026-05-02 18:19:23 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 18:19:24 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 18:19:27 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:31 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 18:19:31 | WARNING  | utils              | listen_voice: Speech was unclear / not understood.
+2026-05-02 18:19:31 | WARNING  | gui                | Voice input unclear.
+2026-05-02 18:19:32 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:33 | INFO     | gui                | Voice input started.
+2026-05-02 18:19:33 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 18:19:34 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 18:19:36 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 18:19:37 | INFO     | utils              | Voice recognised: 'hello'
+2026-05-02 18:19:37 | INFO     | gui                | Voice recognised: 'hello'
+2026-05-02 18:19:37 | INFO     | gui                | User input dispatched: 'hello'
+2026-05-02 18:19:37 | ERROR    | gui                | JarvisWorker error: '"type"'
+2026-05-02 18:19:37 | DEBUG    | long_memory        | long_memory: saved interaction (total=1).
+2026-05-02 18:19:37 | INFO     | gui                | Response received (error): I'm having trouble connecting to my brain right now. Please try again....
+2026-05-02 18:19:37 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:41 | DEBUG    | utils              | speak_response: spoke 70 chars.
+2026-05-02 18:19:41 | DEBUG    | gui                | TTS finished.
+2026-05-02 18:19:42 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:47 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:51 | INFO     | agent_loop         | AgentLoop: safe_mode=OFF
+2026-05-02 18:19:51 | INFO     | gui                | Autonomous mode enabled.
+2026-05-02 18:19:52 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:19:57 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:02 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:05 | INFO     | gui                | Voice input started.
+2026-05-02 18:20:06 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 18:20:06 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 18:20:07 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:10 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 18:20:11 | INFO     | utils              | Voice recognised: 'hello'
+2026-05-02 18:20:11 | INFO     | gui                | Voice recognised: 'hello'
+2026-05-02 18:20:11 | INFO     | gui                | User input dispatched: 'hello'
+2026-05-02 18:20:11 | DEBUG    | ai_engine          | plan_actions: querying Gemini for 'hello'
+2026-05-02 18:20:12 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:16 | ERROR    | ai_engine          | plan_actions: Gemini API error — 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-02 18:20:16 | ERROR    | gui                | JarvisWorker error: '"type"'
+2026-05-02 18:20:16 | DEBUG    | long_memory        | long_memory: saved interaction (total=2).
+2026-05-02 18:20:16 | INFO     | gui                | Response received (error): I'm having trouble connecting to my brain right now. Please try again....
+2026-05-02 18:20:17 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:21 | DEBUG    | utils              | speak_response: spoke 70 chars.
+2026-05-02 18:20:21 | DEBUG    | gui                | TTS finished.
+2026-05-02 18:20:22 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:22 | INFO     | agent_loop         | AgentLoop: safe_mode=ON
+2026-05-02 18:20:22 | INFO     | gui                | Autonomous mode disabled.
+2026-05-02 18:20:27 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:32 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:37 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:42 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:47 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:52 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:20:57 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:21:02 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:21:07 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:21:12 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:21:17 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 18:21:22 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:09:49 | ERROR    | ai_engine          | GEMINI_API_KEY not set.
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_firefox' → plugin 'browser'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_chrome' → plugin 'browser'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'open_url' → plugin 'browser'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_google' → plugin 'browser'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_youtube' → plugin 'browser'
+2026-05-02 19:09:49 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'browser' from 'browser_plugin.py' (5 action(s))
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_date' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_time' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_datetime' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_uptime' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_disk_usage' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_memory_usage' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_ip_address' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_up' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_down' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_mute' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'take_screenshot' → plugin 'system_utils'
+2026-05-02 19:09:49 | DEBUG    | plugin_loader      | plugin_loader: registered 'lock_screen' → plugin 'system_utils'
+2026-05-02 19:09:49 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'system_utils' from 'system_plugin.py' (12 action(s))
+2026-05-02 19:09:49 | INFO     | plugin_loader      | plugin_loader: 2 plugin(s) loaded, 17 total actions registered.
+2026-05-02 19:09:49 | INFO     | gui                | Plugins loaded: ['browser', 'system_utils']
+2026-05-02 19:09:49 | DEBUG    | agent_loop         | AgentLoop: loop entered.
+2026-05-02 19:09:49 | INFO     | agent_loop         | AgentLoop: started.
+2026-05-02 19:09:50 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-02 19:09:50 | DEBUG    | utils              | speak_response: spoke 45 chars.
+2026-05-02 19:09:50 | DEBUG    | gui                | TTS finished.
+2026-05-02 19:09:54 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:09:59 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:10:00 | INFO     | agent_loop         | AgentLoop: safe_mode=OFF
+2026-05-02 19:10:00 | INFO     | gui                | Autonomous mode enabled.
+2026-05-02 19:10:03 | INFO     | gui                | Voice input started.
+2026-05-02 19:10:03 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 19:10:04 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 19:10:04 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:10:08 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 19:10:09 | WARNING  | utils              | listen_voice: Speech was unclear / not understood.
+2026-05-02 19:10:09 | WARNING  | gui                | Voice input unclear.
+2026-05-02 19:10:09 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:10:12 | INFO     | gui                | Voice input started.
+2026-05-02 19:10:12 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 19:10:12 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 19:10:14 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 19:10:14 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:10:15 | INFO     | utils              | Voice recognised: 'hello'
+2026-05-02 19:10:15 | INFO     | gui                | Voice recognised: 'hello'
+2026-05-02 19:10:15 | INFO     | gui                | User input dispatched: 'hello'
+2026-05-02 19:10:15 | DEBUG    | ai_engine          | detect_intent: offline — using keyword fallback.
+2026-05-02 19:10:15 | INFO     | gui                | Intent: {'type': 'ai_query', 'actions': []} for input: 'hello'
+2026-05-02 19:10:15 | DEBUG    | long_memory        | long_memory: saved interaction (total=3).
+2026-05-02 19:10:15 | INFO     | gui                | Response received (ai): I'm running in offline mode — my AI brain isn't connected.
+Please set the GEMINI...
+2026-05-02 19:10:19 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:10:22 | DEBUG    | utils              | speak_response: spoke 120 chars.
+2026-05-02 19:10:22 | DEBUG    | gui                | TTS finished.
+2026-05-02 19:10:24 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:12:15 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_firefox' → plugin 'browser'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_chrome' → plugin 'browser'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'open_url' → plugin 'browser'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_google' → plugin 'browser'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_youtube' → plugin 'browser'
+2026-05-02 19:12:15 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'browser' from 'browser_plugin.py' (5 action(s))
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_date' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_time' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_datetime' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_uptime' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_disk_usage' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_memory_usage' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_ip_address' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_up' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_down' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_mute' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'take_screenshot' → plugin 'system_utils'
+2026-05-02 19:12:15 | DEBUG    | plugin_loader      | plugin_loader: registered 'lock_screen' → plugin 'system_utils'
+2026-05-02 19:12:15 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'system_utils' from 'system_plugin.py' (12 action(s))
+2026-05-02 19:12:15 | INFO     | plugin_loader      | plugin_loader: 2 plugin(s) loaded, 17 total actions registered.
+2026-05-02 19:12:15 | INFO     | gui                | Plugins loaded: ['browser', 'system_utils']
+2026-05-02 19:12:15 | DEBUG    | agent_loop         | AgentLoop: loop entered.
+2026-05-02 19:12:15 | INFO     | agent_loop         | AgentLoop: started.
+2026-05-02 19:12:15 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-02 19:12:15 | DEBUG    | utils              | speak_response: spoke 45 chars.
+2026-05-02 19:12:15 | DEBUG    | gui                | TTS finished.
+2026-05-02 19:12:19 | INFO     | gui                | Voice input started.
+2026-05-02 19:12:19 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 19:12:19 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 19:12:20 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:12:25 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:12:26 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 19:12:27 | WARNING  | utils              | listen_voice: Speech was unclear / not understood.
+2026-05-02 19:12:27 | WARNING  | gui                | Voice input unclear.
+2026-05-02 19:12:30 | INFO     | gui                | Voice input started.
+2026-05-02 19:12:30 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 19:12:30 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:12:30 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 19:12:31 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 19:12:33 | INFO     | utils              | Voice recognised: 'hello'
+2026-05-02 19:12:33 | INFO     | gui                | Voice recognised: 'hello'
+2026-05-02 19:12:33 | INFO     | gui                | User input dispatched: 'hello'
+2026-05-02 19:12:33 | ERROR    | gui                | JarvisWorker error: 'JarvisAI' object has no attribute '_intent_model'
+2026-05-02 19:12:33 | DEBUG    | long_memory        | long_memory: saved interaction (total=4).
+2026-05-02 19:12:33 | INFO     | gui                | Response received (error): I'm having trouble connecting to my brain right now. Please try again....
+2026-05-02 19:12:35 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:12:37 | DEBUG    | utils              | speak_response: spoke 70 chars.
+2026-05-02 19:12:37 | DEBUG    | gui                | TTS finished.
+2026-05-02 19:12:40 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:12:45 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:12:50 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:12:55 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:13:00 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:13:05 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:13:10 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:13:15 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:13:20 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:13:25 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:10 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_firefox' → plugin 'browser'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_chrome' → plugin 'browser'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'open_url' → plugin 'browser'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_google' → plugin 'browser'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_youtube' → plugin 'browser'
+2026-05-02 19:19:10 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'browser' from 'browser_plugin.py' (5 action(s))
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_date' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_time' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_datetime' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_uptime' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_disk_usage' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_memory_usage' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_ip_address' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_up' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_down' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_mute' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'take_screenshot' → plugin 'system_utils'
+2026-05-02 19:19:10 | DEBUG    | plugin_loader      | plugin_loader: registered 'lock_screen' → plugin 'system_utils'
+2026-05-02 19:19:10 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'system_utils' from 'system_plugin.py' (12 action(s))
+2026-05-02 19:19:10 | INFO     | plugin_loader      | plugin_loader: 2 plugin(s) loaded, 17 total actions registered.
+2026-05-02 19:19:10 | INFO     | gui                | Plugins loaded: ['browser', 'system_utils']
+2026-05-02 19:19:10 | DEBUG    | agent_loop         | AgentLoop: loop entered.
+2026-05-02 19:19:10 | INFO     | agent_loop         | AgentLoop: started.
+2026-05-02 19:19:10 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-02 19:19:10 | DEBUG    | utils              | speak_response: spoke 45 chars.
+2026-05-02 19:19:10 | DEBUG    | gui                | TTS finished.
+2026-05-02 19:19:14 | INFO     | gui                | Voice input started.
+2026-05-02 19:19:14 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 19:19:14 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 19:19:15 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:20 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:22 | WARNING  | utils              | listen_voice: No speech detected within timeout.
+2026-05-02 19:19:22 | ERROR    | gui                | Voice error: No speech detected. Please try again.
+2026-05-02 19:19:25 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:27 | INFO     | gui                | Voice input started.
+2026-05-02 19:19:27 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-02 19:19:28 | DEBUG    | utils              | Listening for voice input...
+2026-05-02 19:19:30 | DEBUG    | utils              | Audio captured — sending to Google STT...
+2026-05-02 19:19:30 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:31 | INFO     | utils              | Voice recognised: 'hello'
+2026-05-02 19:19:31 | INFO     | gui                | Voice recognised: 'hello'
+2026-05-02 19:19:31 | INFO     | gui                | User input dispatched: 'hello'
+2026-05-02 19:19:31 | ERROR    | gui                | JarvisWorker error: 'JarvisAI' object has no attribute '_intent_model'
+2026-05-02 19:19:31 | DEBUG    | long_memory        | long_memory: saved interaction (total=5).
+2026-05-02 19:19:31 | INFO     | gui                | Response received (error): I'm having trouble connecting to my brain right now. Please try again....
+2026-05-02 19:19:35 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:35 | DEBUG    | utils              | speak_response: spoke 70 chars.
+2026-05-02 19:19:35 | DEBUG    | gui                | TTS finished.
+2026-05-02 19:19:40 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:45 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:50 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:19:55 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:20:00 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:20:05 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-02 19:20:10 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:47:47 | INFO     | main               | ============================================================
+2026-05-03 14:47:47 | INFO     | main               | Jarvis session started.
+2026-05-03 14:47:47 | ERROR    | ai_engine          | GEMINI_API_KEY not set.
+2026-05-03 14:47:47 | WARNING  | main               | AI engine is offline — GEMINI_API_KEY may be missing.
+2026-05-03 14:47:48 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 14:47:48 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 14:47:48 | INFO     | main               | Jarvis: Good afternoon, Yash! How can I help you today?
+2026-05-03 14:48:01 | INFO     | main               | User: Hellow
+2026-05-03 14:48:09 | DEBUG    | utils              | speak_response: spoke 120 chars.
+2026-05-03 14:48:09 | INFO     | main               | Jarvis (AI): I'm running in offline mode — my AI brain isn't connected.
+Please set the GEMINI_API_KEY environment variable and restart.
+2026-05-03 14:50:03 | INFO     | main               | ============================================================
+2026-05-03 14:50:03 | INFO     | main               | Jarvis session started.
+2026-05-03 14:50:03 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-03 14:50:03 | INFO     | main               | AI engine ready.
+2026-05-03 14:50:03 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 14:50:03 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 14:50:03 | INFO     | main               | Jarvis: Good afternoon, Yash! How can I help you today?
+2026-05-03 14:50:11 | INFO     | main               | User: Hellow
+2026-05-03 14:50:11 | DEBUG    | ai_engine          | ask: sending to Gemini — 'Hellow'
+2026-05-03 14:50:31 | ERROR    | ai_engine          | ask: unexpected error — [Errno -2] Name or service not known
+2026-05-03 14:50:37 | DEBUG    | utils              | speak_response: spoke 91 chars.
+2026-05-03 14:50:37 | INFO     | main               | Jarvis (AI): Something went wrong while contacting Gemini. Check your internet connection and try again.
+2026-05-03 14:53:10 | INFO     | main               | ============================================================
+2026-05-03 14:53:10 | INFO     | main               | Jarvis session started.
+2026-05-03 14:53:10 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-03 14:53:10 | INFO     | main               | AI engine ready.
+2026-05-03 14:53:10 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 14:53:10 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 14:53:10 | INFO     | main               | Jarvis: Good afternoon, Yash! How can I help you today?
+2026-05-03 14:53:14 | INFO     | main               | User: Hellow
+2026-05-03 14:53:14 | DEBUG    | ai_engine          | ask: sending to Gemini — 'Hellow'
+2026-05-03 14:53:15 | DEBUG    | ai_engine          | ask: received 67 chars.
+2026-05-03 14:53:19 | DEBUG    | utils              | speak_response: spoke 67 chars.
+2026-05-03 14:53:19 | INFO     | main               | Jarvis (AI): Hello Yash! It's good to hear from you. How can I assist you today?
+2026-05-03 14:54:20 | INFO     | main               | User: open youtube
+2026-05-03 14:54:20 | DEBUG    | ai_engine          | ask: sending to Gemini — 'open youtube'
+2026-05-03 14:54:22 | DEBUG    | ai_engine          | ask: received 536 chars.
+2026-05-03 14:54:54 | DEBUG    | utils              | speak_response: spoke 529 chars.
+2026-05-03 14:54:54 | INFO     | main               | Jarvis (AI): Hello Yash!
+
+I understand you'd like to open YouTube. As an AI assistant, I don't have the ability to directly execute commands on your system like opening applications. My function is to provide info...
+2026-05-03 14:57:42 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_firefox' → plugin 'browser'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_chrome' → plugin 'browser'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'open_url' → plugin 'browser'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_google' → plugin 'browser'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_youtube' → plugin 'browser'
+2026-05-03 14:57:42 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'browser' from 'browser_plugin.py' (5 action(s))
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_date' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_time' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_datetime' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_uptime' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_disk_usage' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_memory_usage' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_ip_address' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_up' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_down' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_mute' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'take_screenshot' → plugin 'system_utils'
+2026-05-03 14:57:42 | DEBUG    | plugin_loader      | plugin_loader: registered 'lock_screen' → plugin 'system_utils'
+2026-05-03 14:57:42 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'system_utils' from 'system_plugin.py' (12 action(s))
+2026-05-03 14:57:42 | INFO     | plugin_loader      | plugin_loader: 2 plugin(s) loaded, 17 total actions registered.
+2026-05-03 14:57:42 | INFO     | gui                | Plugins loaded: ['browser', 'system_utils']
+2026-05-03 14:57:42 | DEBUG    | agent_loop         | AgentLoop: loop entered.
+2026-05-03 14:57:42 | INFO     | agent_loop         | AgentLoop: started.
+2026-05-03 14:57:42 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 14:57:42 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 14:57:42 | DEBUG    | gui                | TTS finished.
+2026-05-03 14:57:47 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:57:47 | INFO     | agent_loop         | AgentLoop: safe_mode=OFF
+2026-05-03 14:57:47 | INFO     | gui                | Autonomous mode enabled.
+2026-05-03 14:57:52 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:57:57 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:00 | INFO     | gui                | Voice input started.
+2026-05-03 14:58:01 | DEBUG    | utils              | Calibrating for ambient noise (0.4 s)...
+2026-05-03 14:58:01 | DEBUG    | utils              | Listening for voice input...
+2026-05-03 14:58:02 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:07 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:09 | WARNING  | utils              | listen_voice: No speech detected within timeout.
+2026-05-03 14:58:09 | ERROR    | gui                | Voice error: No speech detected. Please try again.
+2026-05-03 14:58:12 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:17 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:20 | INFO     | gui                | User input dispatched: 'Hellow'
+2026-05-03 14:58:20 | DEBUG    | ai_engine          | plan_actions: querying Gemini for 'Hellow'
+2026-05-03 14:58:22 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:27 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:32 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:37 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:40 | ERROR    | ai_engine          | plan_actions: unexpected error — [Errno -2] Name or service not known
+2026-05-03 14:58:40 | ERROR    | gui                | JarvisWorker error: '"type"'
+2026-05-03 14:58:40 | DEBUG    | long_memory        | long_memory: saved interaction (total=6).
+2026-05-03 14:58:40 | INFO     | gui                | Response received (error): I'm having trouble connecting to my brain right now. Please try again....
+2026-05-03 14:58:42 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:44 | DEBUG    | utils              | speak_response: spoke 70 chars.
+2026-05-03 14:58:44 | DEBUG    | gui                | TTS finished.
+2026-05-03 14:58:47 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:52 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:58:57 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:02 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:07 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:12 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:17 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:22 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:27 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:32 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:37 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:42 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:47 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:52 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 14:59:57 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:02 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:07 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:12 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:17 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:22 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:27 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:32 | INFO     | agent_loop         | AgentLoop: safe_mode=ON
+2026-05-03 15:00:32 | INFO     | gui                | Autonomous mode disabled.
+2026-05-03 15:00:32 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:36 | INFO     | gui                | User input dispatched: 'Hello'
+2026-05-03 15:00:36 | ERROR    | gui                | JarvisWorker error: '"type"'
+2026-05-03 15:00:36 | DEBUG    | long_memory        | long_memory: saved interaction (total=7).
+2026-05-03 15:00:36 | INFO     | gui                | Response received (error): I'm having trouble connecting to my brain right now. Please try again....
+2026-05-03 15:00:37 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:00:41 | DEBUG    | utils              | speak_response: spoke 70 chars.
+2026-05-03 15:00:41 | DEBUG    | gui                | TTS finished.
+2026-05-03 15:00:54 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_firefox' → plugin 'browser'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_chrome' → plugin 'browser'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'open_url' → plugin 'browser'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_google' → plugin 'browser'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_youtube' → plugin 'browser'
+2026-05-03 15:00:54 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'browser' from 'browser_plugin.py' (5 action(s))
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_date' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_time' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_datetime' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_uptime' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_disk_usage' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_memory_usage' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_ip_address' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_up' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_down' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_mute' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'take_screenshot' → plugin 'system_utils'
+2026-05-03 15:00:54 | DEBUG    | plugin_loader      | plugin_loader: registered 'lock_screen' → plugin 'system_utils'
+2026-05-03 15:00:54 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'system_utils' from 'system_plugin.py' (12 action(s))
+2026-05-03 15:00:54 | INFO     | plugin_loader      | plugin_loader: 2 plugin(s) loaded, 17 total actions registered.
+2026-05-03 15:00:54 | INFO     | gui                | Plugins loaded: ['browser', 'system_utils']
+2026-05-03 15:00:54 | DEBUG    | agent_loop         | AgentLoop: loop entered.
+2026-05-03 15:00:54 | INFO     | agent_loop         | AgentLoop: started.
+2026-05-03 15:00:54 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 15:00:54 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 15:00:54 | DEBUG    | gui                | TTS finished.
+2026-05-03 15:00:58 | INFO     | gui                | User input dispatched: 'Hellow'
+2026-05-03 15:00:58 | ERROR    | gui                | JarvisWorker error: '"type"'
+2026-05-03 15:00:58 | DEBUG    | long_memory        | long_memory: saved interaction (total=8).
+2026-05-03 15:00:58 | INFO     | gui                | Response received (error): I'm having trouble connecting to my brain right now. Please try again....
+2026-05-03 15:00:59 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:01:12 | INFO     | main               | ============================================================
+2026-05-03 15:01:12 | INFO     | main               | Jarvis session started.
+2026-05-03 15:01:12 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-03 15:01:12 | INFO     | main               | AI engine ready.
+2026-05-03 15:01:12 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 15:01:12 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 15:01:12 | INFO     | main               | Jarvis: Good afternoon, Yash! How can I help you today?
+2026-05-03 15:01:15 | INFO     | main               | User: Hellow
+2026-05-03 15:01:15 | DEBUG    | ai_engine          | ask: sending to Gemini — 'Hellow'
+2026-05-03 15:01:21 | ERROR    | ai_engine          | ask: unexpected error — 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-05-03 15:01:26 | DEBUG    | utils              | speak_response: spoke 91 chars.
+2026-05-03 15:01:26 | INFO     | main               | Jarvis (AI): Something went wrong while contacting Gemini. Check your internet connection and try again.
+2026-05-03 15:01:52 | INFO     | main               | User: You can fix this what a peroblem?
+2026-05-03 15:01:52 | DEBUG    | ai_engine          | ask: sending to Gemini — 'You can fix this what a peroblem?'
+2026-05-03 15:01:52 | ERROR    | ai_engine          | ask: unexpected error — 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-05-03 15:01:58 | DEBUG    | utils              | speak_response: spoke 91 chars.
+2026-05-03 15:01:58 | INFO     | main               | Jarvis (AI): Something went wrong while contacting Gemini. Check your internet connection and try again.
+2026-05-03 15:03:01 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_firefox' → plugin 'browser'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'launch_chrome' → plugin 'browser'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'open_url' → plugin 'browser'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_google' → plugin 'browser'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'search_youtube' → plugin 'browser'
+2026-05-03 15:03:01 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'browser' from 'browser_plugin.py' (5 action(s))
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_date' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_time' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_datetime' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_uptime' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_disk_usage' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_memory_usage' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'show_ip_address' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_up' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_down' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'volume_mute' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'take_screenshot' → plugin 'system_utils'
+2026-05-03 15:03:01 | DEBUG    | plugin_loader      | plugin_loader: registered 'lock_screen' → plugin 'system_utils'
+2026-05-03 15:03:01 | INFO     | plugin_loader      | plugin_loader: loaded plugin 'system_utils' from 'system_plugin.py' (12 action(s))
+2026-05-03 15:03:01 | INFO     | plugin_loader      | plugin_loader: 2 plugin(s) loaded, 17 total actions registered.
+2026-05-03 15:03:01 | INFO     | gui                | Plugins loaded: ['browser', 'system_utils']
+2026-05-03 15:03:01 | DEBUG    | agent_loop         | AgentLoop: loop entered.
+2026-05-03 15:03:01 | INFO     | agent_loop         | AgentLoop: started.
+2026-05-03 15:03:01 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 15:03:01 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 15:03:01 | DEBUG    | gui                | TTS finished.
+2026-05-03 15:03:06 | INFO     | gui                | User input dispatched: 'Hellow'
+2026-05-03 15:03:06 | ERROR    | gui                | JarvisWorker error: '"type"'
+2026-05-03 15:03:06 | DEBUG    | long_memory        | long_memory: saved interaction (total=9).
+2026-05-03 15:03:06 | INFO     | gui                | Response received (error): I'm having trouble connecting to my brain right now. Please try again....
+2026-05-03 15:03:06 | DEBUG    | agent_loop         | AgentLoop: idle tick.
+2026-05-03 15:03:16 | INFO     | main               | ============================================================
+2026-05-03 15:03:16 | INFO     | main               | Jarvis session started.
+2026-05-03 15:03:16 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-03 15:03:16 | INFO     | main               | AI engine ready.
+2026-05-03 15:03:16 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 15:03:16 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 15:03:16 | INFO     | main               | Jarvis: Good afternoon, Yash! How can I help you today?
+2026-05-03 15:03:19 | INFO     | main               | User: Hellow
+2026-05-03 15:03:19 | DEBUG    | ai_engine          | ask: sending to Gemini — 'Hellow'
+2026-05-03 15:03:20 | DEBUG    | ai_engine          | ask: received 149 chars.
+2026-05-03 15:03:30 | DEBUG    | utils              | speak_response: spoke 148 chars.
+2026-05-03 15:03:30 | INFO     | main               | Jarvis (AI): Hello Yash! It's good to hear from you. I'm Jarvis, your AI assistant running on Linux Mint.
+
+How can I help you today? Feel free to ask me anything!
+2026-05-03 15:04:06 | INFO     | main               | User: Can you open File Manager
+2026-05-03 15:04:06 | INFO     | system_control     | execute_action: running built-in 'launch_file_manager'
+2026-05-03 15:04:06 | INFO     | system_control     | Launched File Manager via '/usr/bin/nemo'
+2026-05-03 15:04:08 | DEBUG    | utils              | speak_response: spoke 25 chars.
+2026-05-03 15:04:08 | INFO     | main               | Jarvis (system): Opening File Manager... 🚀
+2026-05-03 15:04:37 | INFO     | main               | User: Can you access my all System?
+2026-05-03 15:04:37 | DEBUG    | ai_engine          | ask: sending to Gemini — 'Can you access my all System?'
+2026-05-03 15:04:42 | DEBUG    | ai_engine          | ask: received 1253 chars.
+2026-05-03 15:05:55 | DEBUG    | utils              | speak_response: spoke 1240 chars.
+2026-05-03 15:05:55 | INFO     | main               | Jarvis (AI): Hello Yash!
+
+That's a good question. As an AI assistant, I don't have direct access to your entire system in the way a human user or a system administrator would. I'm a software program designed to un...
+2026-05-03 15:11:05 | INFO     | main               | ============================================================
+2026-05-03 15:11:05 | INFO     | main               | Jarvis session started.
+2026-05-03 15:11:05 | INFO     | ai_engine          | Gemini 'gemini-2.5-flash' initialised.
+2026-05-03 15:11:05 | INFO     | main               | AI engine ready.
+2026-05-03 15:11:05 | DEBUG    | utils              | pyttsx3 TTS engine initialised.
+2026-05-03 15:11:05 | DEBUG    | utils              | speak_response: spoke 47 chars.
+2026-05-03 15:11:05 | INFO     | main               | Jarvis: Good afternoon, Yash! How can I help you today?
+2026-05-03 15:11:11 | INFO     | main               | User: You: hello
+2026-05-03 15:11:11 | DEBUG    | ai_engine          | ask: sending to Gemini — 'You: hello'
+2026-05-03 15:11:31 | ERROR    | ai_engine          | ask: unexpected error — [Errno -2] Name or service not known
+2026-05-03 15:11:37 | DEBUG    | utils              | speak_response: spoke 91 chars.
+2026-05-03 15:11:37 | INFO     | main               | Jarvis (AI): Something went wrong while contacting Gemini. Check your internet connection and try again.
+2026-05-03 15:11:40 | INFO     | main               | User: You: open youtubehello
+2026-05-03 15:11:40 | DEBUG    | ai_engine          | ask: sending to Gemini — 'You: open youtubehello'
+2026-05-03 15:11:44 | DEBUG    | ai_engine          | ask: received 327 chars.
+2026-05-03 15:12:04 | DEBUG    | utils              | speak_response: spoke 326 chars.
+2026-05-03 15:12:04 | INFO     | main               | Jarvis (AI): Hello Yash! It looks like you tried to open YouTube. As an AI assistant, I don't directly execute system commands like 'open youtube'; those are handled by the system before they reach me.
+
+I hope our...
+2026-05-03 15:12:07 | INFO     | main               | User: open youtube
+2026-05-03 15:12:07 | DEBUG    | ai_engine          | ask: sending to Gemini — 'open youtube'
+2026-05-03 15:12:10 | DEBUG    | ai_engine          | ask: received 485 chars.
+2026-05-03 15:12:40 | DEBUG    | utils              | speak_response: spoke 483 chars.
+2026-05-03 15:12:40 | INFO     | main               | Jarvis (AI): Hello again, Yash.
+
+It seems you're still trying to open YouTube. Just to clarify, as an AI, I don't directly execute system commands like 'open youtube'. That functionality is handled by the system i...
+2026-05-03 15:12:40 | INFO     | main               | User: open filemanager
+2026-05-03 15:12:40 | DEBUG    | ai_engine          | ask: sending to Gemini — 'open filemanager'
+2026-05-03 15:12:42 | DEBUG    | ai_engine          | ask: received 574 chars.
+2026-05-03 15:13:17 | DEBUG    | utils              | speak_response: spoke 571 chars.
+2026-05-03 15:13:17 | INFO     | main               | Jarvis (AI): Hello Yash.
+
+It appears you're trying to open the file manager. Just like with "open youtube," I don't directly execute system commands such as 'open filemanager'. Those actions are handled by the sys...
+2026-05-03 15:13:22 | INFO     | main               | User: [ACan you open File Manager
+2026-05-03 15:13:22 | INFO     | system_control     | execute_action: running built-in 'launch_file_manager'
+2026-05-03 15:13:22 | INFO     | system_control     | Launched File Manager via '/usr/bin/nemo'
+2026-05-03 15:13:24 | DEBUG    | utils              | speak_response: spoke 25 chars.
+2026-05-03 15:13:24 | INFO     | main               | Jarvis (system): Opening File Manager... 🚀
+2026-05-03 15:21:36,415 | INFO     | ai_engine | Gemini AI Client initialized.
+2026-05-03 15:21:36,502 | INFO     | voice | Detecting available microphones...
+2026-05-03 15:21:36,657 | INFO     | voice | Mic Index 0: HDA Intel PCH: ALC255 Analog (hw:0,0)
+2026-05-03 15:21:36,657 | INFO     | voice | Mic Index 1: HDA Intel PCH: ALC255 Alt Analog (hw:0,2)
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 2: HDA Intel PCH: HDMI 0 (hw:0,3)
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 3: HDA Intel PCH: HDMI 1 (hw:0,7)
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 4: HDA Intel PCH: HDMI 2 (hw:0,8)
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 5: sysdefault
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 6: front
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 7: surround40
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 8: surround51
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 9: surround71
+2026-05-03 15:21:36,658 | INFO     | voice | Mic Index 10: hdmi
+2026-05-03 15:21:36,659 | INFO     | voice | Mic Index 11: pipewire
+2026-05-03 15:21:36,659 | INFO     | voice | Mic Index 12: dmix
+2026-05-03 15:21:36,659 | INFO     | voice | Mic Index 13: default
+2026-05-03 15:22:28,171 | INFO     | commands | Local command matched: open youtube
+2026-05-03 15:22:28,487 | INFO     | voice | Jarvis: Opening YouTube for you.
+2026-05-03 15:25:14,701 | INFO     | ai_engine | Gemini AI Client initialized.
+2026-05-03 15:26:01,871 | ERROR    | ai_engine | Gemini API error: [Errno -2] Name or service not known
+2026-05-03 15:26:24,011 | ERROR    | ai_engine | Gemini API error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-05-03 15:29:48,634 | INFO     | ai_engine | Gemini AI (Stable) initialized.
+2026-05-03 15:30:16,686 | ERROR    | ai_engine | Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:30:37,185 | INFO     | ai_engine | Gemini AI (Stable) initialized.
+2026-05-03 15:30:40,657 | ERROR    | ai_engine | Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:32:06,042 | INFO     | ai_engine | Jarvis AI initialized with model: gemini-1.5-flash
+2026-05-03 15:32:14,601 | WARNING  | ai_engine | Model gemini-1.5-flash failed (404). Trying gemini-pro...
+2026-05-03 15:32:14,602 | INFO     | ai_engine | Jarvis AI initialized with model: gemini-pro
+2026-05-03 15:32:14,823 | ERROR    | ai_engine | Gemini API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:35:03,172 | INFO     | ai_engine | Model selection: gemini-1.5-flash
+2026-05-03 15:35:08,084 | ERROR    | ai_engine | Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:35:08,085 | WARNING  | ai_engine | Call failed with 404. Attempting re-init...
+2026-05-03 15:35:08,085 | INFO     | ai_engine | Model selection: gemini-1.5-flash
+2026-05-03 15:35:48,205 | INFO     | ai_engine | Model selected: gemini-1.5-flash-latest
+2026-05-03 15:35:50,707 | ERROR    | ai_engine | Gemini API error: 404 models/gemini-1.5-flash-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:35:50,708 | WARNING  | ai_engine | Model gemini-1.5-flash-latest 404'd. Trying next model in list...
+2026-05-03 15:35:50,708 | INFO     | ai_engine | Model selected: gemini-1.5-pro-latest
+2026-05-03 15:35:50,919 | ERROR    | ai_engine | Gemini API error: 404 models/gemini-1.5-pro-latest is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:35:50,920 | WARNING  | ai_engine | Model gemini-1.5-pro-latest 404'd. Trying next model in list...
+2026-05-03 15:35:50,920 | INFO     | ai_engine | Model selected: gemini-1.5-flash
+2026-05-03 15:35:51,132 | ERROR    | ai_engine | Gemini API error: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:35:51,133 | WARNING  | ai_engine | Model gemini-1.5-flash 404'd. Trying next model in list...
+2026-05-03 15:35:51,133 | INFO     | ai_engine | Model selected: gemini-pro
+2026-05-03 15:35:51,367 | ERROR    | ai_engine | Gemini API error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:36:54,925 | ERROR    | ai_engine | Network error in AI Engine: [Errno -2] Name or service not known
+2026-05-03 15:39:58,697 | ERROR    | ai_engine | Gemini REST Error (404): models/gemini-1.5-flash is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:39:58,697 | WARNING  | ai_engine | gemini-1.5-flash 404. Trying gemini-pro fallback...
+2026-05-03 15:39:59,004 | ERROR    | ai_engine | Gemini REST Error (404): models/gemini-pro is not found for API version v1, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:41:13,449 | ERROR    | ai_engine | Gemini REST Error (404): models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2026-05-03 15:41:13,449 | WARNING  | ai_engine | Retrying with gemini-pro...
+2026-05-03 15:41:13,761 | ERROR    | ai_engine | Gemini REST Error (404): models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.

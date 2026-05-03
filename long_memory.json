@@ -1,0 +1,56 @@
+[
+  {
+    "timestamp": "2026-05-02T18:19:37",
+    "user": "hello",
+    "assistant": "I'm having trouble connecting to my brain right now. Please try again.",
+    "tags": []
+  },
+  {
+    "timestamp": "2026-05-02T18:20:16",
+    "user": "hello",
+    "assistant": "I'm having trouble connecting to my brain right now. Please try again.",
+    "tags": []
+  },
+  {
+    "timestamp": "2026-05-02T19:10:15",
+    "user": "hello",
+    "assistant": "I'm running in offline mode — my AI brain isn't connected.\nPlease set the GEMINI_API_KEY environment variable and restart.",
+    "tags": []
+  },
+  {
+    "timestamp": "2026-05-02T19:12:33",
+    "user": "hello",
+    "assistant": "I'm having trouble connecting to my brain right now. Please try again.",
+    "tags": []
+  },
+  {
+    "timestamp": "2026-05-02T19:19:31",
+    "user": "hello",
+    "assistant": "I'm having trouble connecting to my brain right now. Please try again.",
+    "tags": []
+  },
+  {
+    "timestamp": "2026-05-03T14:58:40",
+    "user": "Hellow",
+    "assistant": "I'm having trouble connecting to my brain right now. Please try again.",
+    "tags": []
+  },
+  {
+    "timestamp": "2026-05-03T15:00:36",
+    "user": "Hello",
+    "assistant": "I'm having trouble connecting to my brain right now. Please try again.",
+    "tags": []
+  },
+  {
+    "timestamp": "2026-05-03T15:00:58",
+    "user": "Hellow",
+    "assistant": "I'm having trouble connecting to my brain right now. Please try again.",
+    "tags": []
+  },
+  {
+    "timestamp": "2026-05-03T15:03:06",
+    "user": "Hellow",
+    "assistant": "I'm having trouble connecting to my brain right now. Please try again.",
+    "tags": []
+  }
+]

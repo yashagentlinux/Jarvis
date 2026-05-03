@@ -1,0 +1,7 @@
+google-genai
+google-generativeai>=0.7.0
+google-api-core>=2.15.0
+PyQt5>=5.15.0
+SpeechRecognition>=3.10.0
+PyAudio>=0.2.13
+pyttsx3>=2.90
